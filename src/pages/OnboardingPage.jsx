@@ -1,11 +1,13 @@
 import { useState } from 'react';
-import { AlertCircle, ChevronRight, Layers } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { AlertCircle, ChevronRight, ClipboardList, Layers } from 'lucide-react';
 import { useAuth } from '../context/AuthProvider.jsx';
 import { Spinner } from '../components/Spinner.jsx';
 
 // Tela 2 — Configuração de perfil e grupo (onboarding)
 export function OnboardingPage() {
   const { saveProfile } = useAuth();
+  const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [groupId, setGroupId] = useState('');
   const [groupName, setGroupName] = useState('');
@@ -18,7 +20,7 @@ export function OnboardingPage() {
   const valid =
     cleanUser.length >= 3 && groupId.trim().length >= 3 && groupName.trim().length >= 2;
 
-  const save = async () => {
+  const save = async (destination = '/album') => {
     setTouched(true);
     setErr('');
     if (!valid) return;
@@ -30,7 +32,8 @@ export function OnboardingPage() {
         panini_group_name: groupName.trim(),
         panini_group_password: groupPass.trim() || null,
       });
-      // perfil completo → App redireciona pro /album
+      // Navega explicitamente antes do App processar o redirecionamento automático
+      navigate(destination, { replace: true });
     } catch (e) {
       setErr(e.message || 'Não foi possível salvar. Tente de novo.');
       setSaving(false);
@@ -134,7 +137,7 @@ export function OnboardingPage() {
           </div>
         )}
 
-        <button className="btn-cta" onClick={save} disabled={saving}>
+        <button className="btn-cta" onClick={() => save('/album')} disabled={saving}>
           {saving ? (
             <>
               <Spinner size={20} /> Salvando…
@@ -144,6 +147,15 @@ export function OnboardingPage() {
               Salvar e ir pro álbum <ChevronRight size={20} />
             </>
           )}
+        </button>
+
+        <button
+          className="flex w-full items-center justify-center gap-2 rounded-xl border border-white/20 py-3 text-sm font-semibold text-white/70 transition hover:border-white/35 hover:text-white disabled:opacity-50"
+          onClick={() => save('/cadastro')}
+          disabled={saving}
+        >
+          <ClipboardList size={18} />
+          Salvar e cadastrar figurinhas agora
         </button>
       </div>
     </div>

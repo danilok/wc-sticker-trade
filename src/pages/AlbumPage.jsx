@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useNavigate, useOutletContext } from 'react-router-dom';
-import { AlertCircle, Check, Repeat } from 'lucide-react';
+import { AlertCircle, Check, ClipboardList, Repeat } from 'lucide-react';
 import { useCatalog } from '../context/CatalogProvider.jsx';
 import { Flag } from '../components/Flag.jsx';
 import { Spinner } from '../components/Spinner.jsx';
@@ -84,6 +84,13 @@ export function AlbumPage() {
       </header>
 
       <div className="px-5 py-5">
+        <button
+          onClick={() => navigate('/cadastro')}
+          className="mb-4 flex w-full items-center justify-center gap-1.5 rounded-xl border border-white/10 py-2 text-xs font-medium text-white/40 transition hover:border-white/20 hover:text-white/65"
+        >
+          <ClipboardList size={13} strokeWidth={2} />
+          Cadastro rápido de figurinhas
+        </button>
         {loading && (
           <div className="flex justify-center py-16 text-brand-accent">
             <Spinner size={32} />

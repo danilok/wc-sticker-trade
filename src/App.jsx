@@ -8,6 +8,7 @@ import { AlbumPage } from './pages/AlbumPage.jsx';
 import { SectionPage } from './pages/SectionPage.jsx';
 import { GroupPage } from './pages/GroupPage.jsx';
 import { ProfilePage } from './pages/ProfilePage.jsx';
+import { QuickRegisterPage } from './pages/QuickRegisterPage.jsx';
 
 function FullScreenLoader() {
   return (
@@ -53,6 +54,7 @@ export default function App() {
           <Route path="/album/:sectionCode" element={<SectionPage />} />
           <Route path="/grupo" element={<GroupPage />} />
           <Route path="/perfil" element={<ProfilePage />} />
+          <Route path="/cadastro" element={<QuickRegisterPage />} />
         </Route>
       </Route>
       <Route path="*" element={<Navigate to={home} replace />} />
