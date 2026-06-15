@@ -1,0 +1,52 @@
+code;name;flag;confed;wc_group;type;tradeable;position
+WAP;We Are Panini;✨;;;special;true;1
+MEX;México;🇲🇽;CONCACAF;A;team;true;2
+RSA;África do Sul;🇿🇦;CAF;A;team;true;3
+KOR;Coreia do Sul;🇰🇷;AFC;A;team;true;4
+CZE;Chéquia;🇨🇿;UEFA;A;team;true;5
+CAN;Canadá;🇨🇦;CONCACAF;B;team;true;6
+BIH;Bósnia e Herzegovina;🇧🇦;UEFA;B;team;true;7
+QAT;Catar;🇶🇦;AFC;B;team;true;8
+SUI;Suíça;🇨🇭;UEFA;B;team;true;9
+BRA;Brasil;🇧🇷;CONMEBOL;C;team;true;10
+MAR;Marrocos;🇲🇦;CAF;C;team;true;11
+HAI;Haiti;🇭🇹;CONCACAF;C;team;true;12
+SCO;Escócia;🏴󠁧󠁢󠁳󠁣󠁴󠁿;UEFA;C;team;true;13
+USA;Estados Unidos;🇺🇸;CONCACAF;D;team;true;14
+PAR;Paraguai;🇵🇾;CONMEBOL;D;team;true;15
+AUS;Austrália;🇦🇺;AFC;D;team;true;16
+TUR;Turquia;🇹🇷;UEFA;D;team;true;17
+GER;Alemanha;🇩🇪;UEFA;E;team;true;18
+CUW;Curaçao;🇨🇼;CONCACAF;E;team;true;19
+CIV;Costa do Marfim;🇨🇮;CAF;E;team;true;20
+ECU;Equador;🇪🇨;CONMEBOL;E;team;true;21
+NED;Países Baixos;🇳🇱;UEFA;F;team;true;22
+JPN;Japão;🇯🇵;AFC;F;team;true;23
+SWE;Suécia;🇸🇪;UEFA;F;team;true;24
+TUN;Tunísia;🇹🇳;CAF;F;team;true;25
+BEL;Bélgica;🇧🇪;UEFA;G;team;true;26
+EGY;Egito;🇪🇬;CAF;G;team;true;27
+IRN;Irã;🇮🇷;AFC;G;team;true;28
+NZL;Nova Zelândia;🇳🇿;OFC;G;team;true;29
+ESP;Espanha;🇪🇸;UEFA;H;team;true;30
+CPV;Cabo Verde;🇨🇻;CAF;H;team;true;31
+KSA;Arábia Saudita;🇸🇦;AFC;H;team;true;32
+URU;Uruguai;🇺🇾;CONMEBOL;H;team;true;33
+FRA;França;🇫🇷;UEFA;I;team;true;34
+SEN;Senegal;🇸🇳;CAF;I;team;true;35
+IRQ;Iraque;🇮🇶;AFC;I;team;true;36
+NOR;Noruega;🇳🇴;UEFA;I;team;true;37
+ARG;Argentina;🇦🇷;CONMEBOL;J;team;true;38
+ALG;Argélia;🇩🇿;CAF;J;team;true;39
+AUT;Áustria;🇦🇹;UEFA;J;team;true;40
+JOR;Jordânia;🇯🇴;AFC;J;team;true;41
+POR;Portugal;🇵🇹;UEFA;K;team;true;42
+COD;Congo DR;🇨🇩;CAF;K;team;true;43
+UZB;Uzbequistão;🇺🇿;AFC;K;team;true;44
+COL;Colômbia;🇨🇴;CONMEBOL;K;team;true;45
+ENG;Inglaterra;🏴󠁧󠁢󠁥󠁮󠁧󠁿;UEFA;L;team;true;46
+CRO;Croácia;🇭🇷;UEFA;L;team;true;47
+GHA;Gana;🇬🇭;CAF;L;team;true;48
+PAN;Panamá;🇵🇦;CONCACAF;L;team;true;49
+ATF;All the Feels;💛;;;special;false;50
+FAN;Fan Stickers;🎉;;;special;false;51

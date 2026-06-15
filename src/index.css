@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  /* desktop: a UI é mobile-first; em telas grandes a fonte-raiz cresce p/
+     conforto de leitura (quase tudo no app usa rem e escala junto). */
+  @media (min-width: 1024px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1536px) {
+    html {
+      font-size: 19px;
+    }
+  }
+  body {
+    @apply bg-brand-bg font-body text-white antialiased;
+  }
+  /* tipografia de títulos */
+  .font-disp {
+    letter-spacing: 0.01em;
+  }
+}
+
+@layer components {
+  /* campo de formulário reutilizável */
+  .field-label {
+    @apply mb-1.5 block text-sm font-semibold text-white/80;
+  }
+  .input {
+    @apply w-full rounded-xl border border-white/15 bg-white/[0.08] px-4 py-3 text-white
+           placeholder:text-white/35 outline-none transition
+           focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/30;
+  }
+  .input-err {
+    @apply border-red-400/70 focus:border-red-400 focus:ring-red-400/30;
+  }
+  /* botão primário (CTA) */
+  .btn-cta {
+    @apply flex w-full items-center justify-center gap-2 rounded-xl bg-brand-accent px-4 py-3.5
+           font-disp text-lg font-bold text-brand-accent-ink transition
+           hover:brightness-105 active:scale-[0.99] disabled:opacity-60 disabled:active:scale-100;
+  }
+  .btn-ghost {
+    @apply flex items-center justify-center gap-2 rounded-xl border border-white/15 px-4 py-3
+           font-semibold text-white/80 transition hover:bg-white/5;
+  }
+  /* spinner */
+  .spinner {
+    @apply inline-block animate-spin rounded-full border-2 border-current border-t-transparent;
+  }
+}
+
+/* scrollbar discreta */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

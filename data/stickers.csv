@@ -1,0 +1,648 @@
+code;section_code;n;description
+WAP-01;WAP;1;Panini
+WAP-02;WAP;2;Official Emblem /1
+WAP-03;WAP;3;Official Emblem /2
+WAP-04;WAP;4;Official Mascots
+WAP-05;WAP;5;Official Slogan
+WAP-06;WAP;6;Official Ball
+WAP-07;WAP;7;Host Country Emblem - CAN
+WAP-08;WAP;8;Host Country Emblem - MEX
+WAP-09;WAP;9;Host Country Emblem - USA
+MEX-01;MEX;1;Mexico Logo
+MEX-02;MEX;2;Luis Malagón
+MEX-03;MEX;3;Johan Vásquez
+MEX-04;MEX;4;César Montes
+MEX-05;MEX;5;Jesús Gallardo
+MEX-06;MEX;6;Israel Reyes
+MEX-07;MEX;7;Edson Álvarez
+MEX-08;MEX;8;Marcel Ruiz
+MEX-09;MEX;9;Hirving Lozano
+MEX-10;MEX;10;Raúl Jiménez
+MEX-11;MEX;11;Alexis Vega
+MEX-12;MEX;12;Roberto Alvarado
+RSA-01;RSA;1;South Africa Logo
+RSA-02;RSA;2;Ronwen Williams
+RSA-03;RSA;3;Aubrey Modiba
+RSA-04;RSA;4;Mbekezeli Mbokazi
+RSA-05;RSA;5;Siyabonga Ngezana
+RSA-06;RSA;6;Khuliso Mudau
+RSA-07;RSA;7;Teboho Mokoena
+RSA-08;RSA;8;Yaya Sithole
+RSA-09;RSA;9;Bathusi Aubaas
+RSA-10;RSA;10;Sipho Mbule
+RSA-11;RSA;11;Lyle Foster
+RSA-12;RSA;12;Oswin Appollis
+KOR-01;KOR;1;Korea Republic Logo
+KOR-02;KOR;2;Hyeonwoo Jo
+KOR-03;KOR;3;Minjae Kim
+KOR-04;KOR;4;Yumin Cho
+KOR-05;KOR;5;Youngwoo Seol
+KOR-06;KOR;6;Jaesung Lee
+KOR-07;KOR;7;Inbeom Hwang
+KOR-08;KOR;8;Kangin Lee
+KOR-09;KOR;9;Jens Castrop
+KOR-10;KOR;10;Heungmin Son
+KOR-11;KOR;11;Heechan Hwang
+KOR-12;KOR;12;Hyeongyu Oh
+CZE-01;CZE;1;Czechia logo
+CZE-02;CZE;2;Matěj Kovář
+CZE-03;CZE;3;Ladislav Krejčí
+CZE-04;CZE;4;Vladimír Coufal
+CZE-05;CZE;5;Jaroslav Zelený
+CZE-06;CZE;6;Lukáš Provod
+CZE-07;CZE;7;Lukáš Červ
+CZE-08;CZE;8;Tomáš Souček
+CZE-09;CZE;9;Pavel Šulc
+CZE-10;CZE;10;Václav Černý
+CZE-11;CZE;11;Adam Hložek
+CZE-12;CZE;12;Patrik Schick
+CAN-01;CAN;1;Canada Logo
+CAN-02;CAN;2;Dayne St. Clair
+CAN-03;CAN;3;Alphonso Davies
+CAN-04;CAN;4;Richie Laryea
+CAN-05;CAN;5;Derek Cornelius
+CAN-06;CAN;6;Stephen Eustáquio
+CAN-07;CAN;7;Ismaël Koné
+CAN-08;CAN;8;Jacob Shaffelburg
+CAN-09;CAN;9;Niko Sigur
+CAN-10;CAN;10;Tajon Buchanan
+CAN-11;CAN;11;Cyle Larin
+CAN-12;CAN;12;Jonathan David
+BIH-01;BIH;1;Bosnia-Herzegovina logo
+BIH-02;BIH;2;Nikola Vasilj
+BIH-03;BIH;3;Amar Dedić
+BIH-04;BIH;4;Sead Kolašinac
+BIH-05;BIH;5;Tarik Muharemović
+BIH-06;BIH;6;Nikola Katić
+BIH-07;BIH;7;Benjamin Tahirović
+BIH-08;BIH;8;Ivan Šunjić
+BIH-09;BIH;9;Ermedin Demirović
+BIH-10;BIH;10;Esmir Bajraktarević
+BIH-11;BIH;11;Edin Džeko
+BIH-12;BIH;12;Amar Memić
+QAT-01;QAT;1;Qatar Logo
+QAT-02;QAT;2;Meshaal Barsham
+QAT-03;QAT;3;Sultan Albrake
+QAT-04;QAT;4;Boualem Khoukhi
+QAT-05;QAT;5;Pedro Miguel
+QAT-06;QAT;6;Mohammed Mannai
+QAT-07;QAT;7;Karim Boudiaf
+QAT-08;QAT;8;Assim Madibo
+QAT-09;QAT;9;Edmílson Junior
+QAT-10;QAT;10;Akram Hassan Afif
+QAT-11;QAT;11;Ahmed Al-Ganehi
+QAT-12;QAT;12;Almoez Ali
+SUI-01;SUI;1;Switzerland Logo
+SUI-02;SUI;2;Gregor Kobel
+SUI-03;SUI;3;Manuel Akanji
+SUI-04;SUI;4;Ricardo Rodríguez
+SUI-05;SUI;5;Nico Elvedi
+SUI-06;SUI;6;Silvan Widmer
+SUI-07;SUI;7;Granit Xhaka
+SUI-08;SUI;8;Remo Freuler
+SUI-09;SUI;9;Fabian Rieder
+SUI-10;SUI;10;Breel Embolo
+SUI-11;SUI;11;Rubén Vargas
+SUI-12;SUI;12;Dan Ndoye
+BRA-01;BRA;1;Brazil Logo
+BRA-02;BRA;2;Alisson
+BRA-03;BRA;3;Marquinhos
+BRA-04;BRA;4;Éder Militão
+BRA-05;BRA;5;Gabriel Magalhães
+BRA-06;BRA;6;Casemiro
+BRA-07;BRA;7;Bruno Guimarães
+BRA-08;BRA;8;Vinícius Júnior
+BRA-09;BRA;9;Rodrygo
+BRA-10;BRA;10;Matheus Cunha
+BRA-11;BRA;11;Raphinha
+BRA-12;BRA;12;Estêvão
+MAR-01;MAR;1;Morocco Logo
+MAR-02;MAR;2;Yassine Bounou
+MAR-03;MAR;3;Achraf Hakimi
+MAR-04;MAR;4;Noussair Mazraoui
+MAR-05;MAR;5;Nayef Aguerd
+MAR-06;MAR;6;Romain Saïss
+MAR-07;MAR;7;Sofyan Amrabat
+MAR-08;MAR;8;Eliesse Ben Seghir
+MAR-09;MAR;9;Bilal El Khannouss
+MAR-10;MAR;10;Ismael Saibari
+MAR-11;MAR;11;Youssef En-Nesyri
+MAR-12;MAR;12;Brahim Díaz
+HAI-01;HAI;1;Haiti Logo
+HAI-02;HAI;2;Johny Placide
+HAI-03;HAI;3;Carlens Arcus
+HAI-04;HAI;4;Ricardo Adé
+HAI-05;HAI;5;Duke Lacroix
+HAI-06;HAI;6;Leverton Pierre
+HAI-07;HAI;7;Danley Jean Jacques
+HAI-08;HAI;8;Jean-Ricner Bellegarde
+HAI-09;HAI;9;Josué Casimir
+HAI-10;HAI;10;Ruben Providence
+HAI-11;HAI;11;Duckens Nazon
+HAI-12;HAI;12;Frantzdy Pierrot
+SCO-01;SCO;1;Scotland Logo
+SCO-02;SCO;2;Angus Gunn
+SCO-03;SCO;3;Aaron Hickey
+SCO-04;SCO;4;Andrew Robertson
+SCO-05;SCO;5;John Souttar
+SCO-06;SCO;6;Grant Hanley
+SCO-07;SCO;7;Scott McTominay
+SCO-08;SCO;8;Lewis Ferguson
+SCO-09;SCO;9;Ryan Christie
+SCO-10;SCO;10;John McGinn
+SCO-11;SCO;11;Ché Adams
+SCO-12;SCO;12;Ben Gannon-Doak
+USA-01;USA;1;USA Logo
+USA-02;USA;2;Matt Freese
+USA-03;USA;3;Chris Richards
+USA-04;USA;4;Tim Ream
+USA-05;USA;5;Mark McKenzie
+USA-06;USA;6;Tyler Adams
+USA-07;USA;7;Weston McKennie
+USA-08;USA;8;Timothy Weah
+USA-09;USA;9;Malik Tillman
+USA-10;USA;10;Christian Pulisic
+USA-11;USA;11;Brenden Aaronson
+USA-12;USA;12;Folarin Balogun
+PAR-01;PAR;1;Paraguay Logo
+PAR-02;PAR;2;Orlando Gill
+PAR-03;PAR;3;Gustavo Gómez
+PAR-04;PAR;4;Juan José Cáceres
+PAR-05;PAR;5;Omar Alderete
+PAR-06;PAR;6;Júnior Alonso
+PAR-07;PAR;7;Diego Gómez
+PAR-08;PAR;8;Andrés Cubas
+PAR-09;PAR;9;Julio Enciso
+PAR-10;PAR;10;Miguel Almirón
+PAR-11;PAR;11;Ramón Sosa
+PAR-12;PAR;12;Antonio Sanabria
+AUS-01;AUS;1;Australia Logo
+AUS-02;AUS;2;Mathew Ryan
+AUS-03;AUS;3;Harry Souttar
+AUS-04;AUS;4;Aziz Behich
+AUS-05;AUS;5;Cameron Burgess
+AUS-06;AUS;6;Lewis Miller
+AUS-07;AUS;7;Jackson Irvine
+AUS-08;AUS;8;Riley McGree
+AUS-09;AUS;9;Aiden O'Neill
+AUS-10;AUS;10;Connor Metcalfe
+AUS-11;AUS;11;Kusini Yengi
+AUS-12;AUS;12;Nestory Irankunda
+TUR-01;TUR;1;Türkiye logo
+TUR-02;TUR;2;Uğurcan Çakır
+TUR-03;TUR;3;Mert Muldür
+TUR-04;TUR;4;Abdülkerim Bardakcı
+TUR-05;TUR;5;Merih Demiral
+TUR-06;TUR;6;Ferdi Kadıoğlu
+TUR-07;TUR;7;Hakan Çalhanoğlu
+TUR-08;TUR;8;Orkun Kökçü
+TUR-09;TUR;9;Arda Güler
+TUR-10;TUR;10;Can Uzun
+TUR-11;TUR;11;Kerem Aktürkoğlu
+TUR-12;TUR;12;Kenan Yıldız
+GER-01;GER;1;Germany Logo
+GER-02;GER;2;Marc-André ter Stegen
+GER-03;GER;3;Antonio Rüdiger
+GER-04;GER;4;Jonathan Tah
+GER-05;GER;5;David Raum
+GER-06;GER;6;Florian Wirtz
+GER-07;GER;7;Joshua Kimmich
+GER-08;GER;8;Leon Goretzka
+GER-09;GER;9;Jamal Musiala
+GER-10;GER;10;Serge Gnabry
+GER-11;GER;11;Kai Havertz
+GER-12;GER;12;Nick Woltemade
+CUW-01;CUW;1;Curaçao Logo
+CUW-02;CUW;2;Eloy Room
+CUW-03;CUW;3;Armando Obispo
+CUW-04;CUW;4;Sherel Floranus
+CUW-05;CUW;5;Roshon van Eijma
+CUW-06;CUW;6;Shurandy Sambo
+CUW-07;CUW;7;Livano Comenencia
+CUW-08;CUW;8;Juninho Bacuna
+CUW-09;CUW;9;Leandro Bacuna
+CUW-10;CUW;10;Kenji Gorré
+CUW-11;CUW;11;Jürgen Locadia
+CUW-12;CUW;12;Sontje Hansen
+CIV-01;CIV;1;Côte d'Ivoire Logo
+CIV-02;CIV;2;Yahia Fofana
+CIV-03;CIV;3;Ghislain Konan
+CIV-04;CIV;4;Wilfried Singo
+CIV-05;CIV;5;Evan Ndicka
+CIV-06;CIV;6;Willy Boly
+CIV-07;CIV;7;Franck Kessié
+CIV-08;CIV;8;Seko Fofana
+CIV-09;CIV;9;Ibrahim Sangaré
+CIV-10;CIV;10;Sébastien Haller
+CIV-11;CIV;11;Simon Adingra
+CIV-12;CIV;12;Evann Guessand
+ECU-01;ECU;1;Ecuador Logo
+ECU-02;ECU;2;Hernán Galíndez
+ECU-03;ECU;3;Piero Hincapié
+ECU-04;ECU;4;Pervis Estupiñán
+ECU-05;ECU;5;Willian Pacho
+ECU-06;ECU;6;Ángelo Preciado
+ECU-07;ECU;7;Kendry Páez
+ECU-08;ECU;8;Moisés Caicedo
+ECU-09;ECU;9;Alan Franco
+ECU-10;ECU;10;Pedro Vite
+ECU-11;ECU;11;Gonzalo Plata
+ECU-12;ECU;12;Enner Valencia
+NED-01;NED;1;Netherlands Logo
+NED-02;NED;2;Bart Verbruggen
+NED-03;NED;3;Virgil van Dijk
+NED-04;NED;4;Micky van de Ven
+NED-05;NED;5;Denzel Dumfries
+NED-06;NED;6;Tijjani Reijnders
+NED-07;NED;7;Ryan Gravenberch
+NED-08;NED;8;Frenkie de Jong
+NED-09;NED;9;Xavi Simons
+NED-10;NED;10;Memphis Depay
+NED-11;NED;11;Donyell Malen
+NED-12;NED;12;Cody Gakpo
+JPN-01;JPN;1;Japan Logo
+JPN-02;JPN;2;Zion Suzuki
+JPN-03;JPN;3;Tsuyoshi Watanabe
+JPN-04;JPN;4;Kaishu Sano
+JPN-05;JPN;5;Ao Tanaka
+JPN-06;JPN;6;Daichi Kamada
+JPN-07;JPN;7;Ritsu Doan
+JPN-08;JPN;8;Keito Nakamura
+JPN-09;JPN;9;Takumi Minamino
+JPN-10;JPN;10;Takefusa Kubo
+JPN-11;JPN;11;Shuto Machino
+JPN-12;JPN;12;Ayase Ueda
+SWE-01;SWE;1;Sweden logo
+SWE-02;SWE;2;Viktor Johansson
+SWE-03;SWE;3;Isak Hien
+SWE-04;SWE;4;Emil Holm
+SWE-05;SWE;5;Victor Nilsson Lindelöf
+SWE-06;SWE;6;Lucas Bergvall
+SWE-07;SWE;7;Yasin Ayari
+SWE-08;SWE;8;Daniel Svensson
+SWE-09;SWE;9;Dejan Kulusevski
+SWE-10;SWE;10;Anthony Elanga
+SWE-11;SWE;11;Alexander Isak
+SWE-12;SWE;12;Viktor Gyökeres
+TUN-01;TUN;1;Tunisia Logo
+TUN-02;TUN;2;Aymen Dahmen
+TUN-03;TUN;3;Montassar Talbi
+TUN-04;TUN;4;Yassine Meriah
+TUN-05;TUN;5;Ali Abdi
+TUN-06;TUN;6;Ferjani Sassi
+TUN-07;TUN;7;Ellyes Skhiri
+TUN-08;TUN;8;Aïssa Laïdouni
+TUN-09;TUN;9;Hannibal Mejbri
+TUN-10;TUN;10;Naïm Sliti
+TUN-11;TUN;11;Elias Achouri
+TUN-12;TUN;12;Hazem Mastouri
+BEL-01;BEL;1;Belgium Logo
+BEL-02;BEL;2;Thibaut Courtois
+BEL-03;BEL;3;Arthur Theate
+BEL-04;BEL;4;Timothy Castagne
+BEL-05;BEL;5;Maxim De Cuyper
+BEL-06;BEL;6;Youri Tielemans
+BEL-07;BEL;7;Kevin De Bruyne
+BEL-08;BEL;8;Amadou Onana
+BEL-09;BEL;9;Jérémy Doku
+BEL-10;BEL;10;Charles De Ketelaere
+BEL-11;BEL;11;Leandro Trossard
+BEL-12;BEL;12;Romelu Lukaku
+EGY-01;EGY;1;Egypt Logo
+EGY-02;EGY;2;Mohamed Elshenawy
+EGY-03;EGY;3;Mohamed Hany
+EGY-04;EGY;4;Yasser Ibrahim
+EGY-05;EGY;5;Ramy Rabia
+EGY-06;EGY;6;Marwan Attia
+EGY-07;EGY;7;Zizo
+EGY-08;EGY;8;Hamdy Fathy
+EGY-09;EGY;9;Omar Marmoush
+EGY-10;EGY;10;Mohamed Salah
+EGY-11;EGY;11;Mostafa Mohamed
+EGY-12;EGY;12;Trezeguet
+IRN-01;IRN;1;IR Iran Logo
+IRN-02;IRN;2;Alireza Beiranvand
+IRN-03;IRN;3;Shojae Khalilzadeh
+IRN-04;IRN;4;Milad Mohammedi
+IRN-05;IRN;5;Ramin Rezaeian
+IRN-06;IRN;6;Hossein Kanaani
+IRN-07;IRN;7;Saeed Ezatolahi
+IRN-08;IRN;8;Saman Ghoddos
+IRN-09;IRN;9;Mohammad Mohebi
+IRN-10;IRN;10;Mehdi Taremi
+IRN-11;IRN;11;Sardar Azmoun
+IRN-12;IRN;12;Alireza Jahanbakhsh
+NZL-01;NZL;1;New Zealand Logo
+NZL-02;NZL;2;Max Crocombe
+NZL-03;NZL;3;Michael Boxall
+NZL-04;NZL;4;Liberato Cacace
+NZL-05;NZL;5;Tim Payne
+NZL-06;NZL;6;Finn Surman
+NZL-07;NZL;7;Marko Stamenić
+NZL-08;NZL;8;Joe Bell
+NZL-09;NZL;9;Sarpreet Singh
+NZL-10;NZL;10;Matthew Garbett
+NZL-11;NZL;11;Chris Wood
+NZL-12;NZL;12;Elijah Just
+ESP-01;ESP;1;Spain Logo
+ESP-02;ESP;2;Unai Simón
+ESP-03;ESP;3;Robin Le Normand
+ESP-04;ESP;4;Dean Huijsen
+ESP-05;ESP;5;Marc Cucurella
+ESP-06;ESP;6;Rodri
+ESP-07;ESP;7;Martín Zubimendi
+ESP-08;ESP;8;Pedri
+ESP-09;ESP;9;Fabián Ruiz
+ESP-10;ESP;10;Lamine Yamal
+ESP-11;ESP;11;Nico Williams
+ESP-12;ESP;12;Mikel Oyarzabal
+CPV-01;CPV;1;Cabo Verde Logo
+CPV-02;CPV;2;Vozinha
+CPV-03;CPV;3;Logan Costa
+CPV-04;CPV;4;Pico
+CPV-05;CPV;5;Steven Moreira
+CPV-06;CPV;6;João Paulo
+CPV-07;CPV;7;Kevin Pina
+CPV-08;CPV;8;Jamiro Monteiro
+CPV-09;CPV;9;Yannick Semedo
+CPV-10;CPV;10;Ryan Mendes
+CPV-11;CPV;11;Jovane Cabral
+CPV-12;CPV;12;Dailon Livramento
+KSA-01;KSA;1;Saudi Arabia Logo
+KSA-02;KSA;2;Nawaf Alaqidi
+KSA-03;KSA;3;Hassan Altambakti
+KSA-04;KSA;4;Jehad Thikri
+KSA-05;KSA;5;Saud Abdulhamid
+KSA-06;KSA;6;Nasser Aldawsari
+KSA-07;KSA;7;Abdullah Alkhaibari
+KSA-08;KSA;8;Musab Aljuwayr
+KSA-09;KSA;9;Feras Albrikan
+KSA-10;KSA;10;Salem Aldawsari
+KSA-11;KSA;11;Saleh Abu Alshamat
+KSA-12;KSA;12;Saleh Alshehri
+URU-01;URU;1;Uruguay Logo
+URU-02;URU;2;Sergio Rochet
+URU-03;URU;3;José María Giménez
+URU-04;URU;4;Ronald Araújo
+URU-05;URU;5;Sebastián Cáceres
+URU-06;URU;6;Mathías Olivera
+URU-07;URU;7;Nahitan Nández
+URU-08;URU;8;Federico Valverde
+URU-09;URU;9;Rodrigo Bentancur
+URU-10;URU;10;Manuel Ugarte
+URU-11;URU;11;Facundo Pellistri
+URU-12;URU;12;Darwin Núñez
+FRA-01;FRA;1;France Logo
+FRA-02;FRA;2;Mike Maignan
+FRA-03;FRA;3;William Saliba
+FRA-04;FRA;4;Jules Koundé
+FRA-05;FRA;5;Théo Hernández
+FRA-06;FRA;6;Aurélien Tchouaméni
+FRA-07;FRA;7;Eduardo Camavinga
+FRA-08;FRA;8;Ousmane Dembélé
+FRA-09;FRA;9;Kylian Mbappé
+FRA-10;FRA;10;Bradley Barcola
+FRA-11;FRA;11;Désiré Doué
+FRA-12;FRA;12;Hugo Ekitiké
+SEN-01;SEN;1;Senegal Logo
+SEN-02;SEN;2;Édouard Mendy
+SEN-03;SEN;3;Kalidou Koulibaly
+SEN-04;SEN;4;Moussa Niakhaté
+SEN-05;SEN;5;El Hadji Malick Diouf
+SEN-06;SEN;6;Idrissa Gana Gueye
+SEN-07;SEN;7;Pape Matar Sarr
+SEN-08;SEN;8;Sadio Mané
+SEN-09;SEN;9;Iliman Ndiaye
+SEN-10;SEN;10;Krépin Diatta
+SEN-11;SEN;11;Ismaïla Sarr
+SEN-12;SEN;12;Nicolas Jackson
+IRQ-01;IRQ;1;Iraq logo
+IRQ-02;IRQ;2;Jalal Hassan
+IRQ-03;IRQ;3;Hussein Ali
+IRQ-04;IRQ;4;Akam Hashem
+IRQ-05;IRQ;5;Merchas Doski
+IRQ-06;IRQ;6;Zaid Tahseen
+IRQ-07;IRQ;7;Zidane Iqbal
+IRQ-08;IRQ;8;Amir Al-Ammari
+IRQ-09;IRQ;9;Ibrahim Bayesh
+IRQ-10;IRQ;10;Ali Jasim
+IRQ-11;IRQ;11;Aimar Sher
+IRQ-12;IRQ;12;Mohanad Ali
+NOR-01;NOR;1;Norway Logo
+NOR-02;NOR;2;Ørjan Nyland
+NOR-03;NOR;3;Julian Ryerson
+NOR-04;NOR;4;Kristoffer Vassbakk Ajer
+NOR-05;NOR;5;David Møller Wolfe
+NOR-06;NOR;6;Martin Ødegaard
+NOR-07;NOR;7;Sander Berge
+NOR-08;NOR;8;Patrick Berg
+NOR-09;NOR;9;Erling Haaland
+NOR-10;NOR;10;Antonio Nusa
+NOR-11;NOR;11;Oscar Bobb
+NOR-12;NOR;12;Alexander Sørloth
+ARG-01;ARG;1;Argentina Logo
+ARG-02;ARG;2;Emiliano Martínez
+ARG-03;ARG;3;Nahuel Molina
+ARG-04;ARG;4;Cristian Romero
+ARG-05;ARG;5;Nicolás Otamendi
+ARG-06;ARG;6;Enzo Fernández
+ARG-07;ARG;7;Alexis Mac Allister
+ARG-08;ARG;8;Rodrigo De Paul
+ARG-09;ARG;9;Julián Alvarez
+ARG-10;ARG;10;Lionel Messi
+ARG-11;ARG;11;Giuliano Simeone
+ARG-12;ARG;12;Lautaro Martínez
+ALG-01;ALG;1;Algeria Logo
+ALG-02;ALG;2;Alexis Guendouz
+ALG-03;ALG;3;Rayan Aït-Nouri
+ALG-04;ALG;4;Ramy Bensebaini
+ALG-05;ALG;5;Youcef Atal
+ALG-06;ALG;6;Aïssa Mandi
+ALG-07;ALG;7;Nabil Bentaleb
+ALG-08;ALG;8;Riyad Mahrez
+ALG-09;ALG;9;Saïd Benrahma
+ALG-10;ALG;10;Amine Gouiri
+ALG-11;ALG;11;Mohamed Amoura
+ALG-12;ALG;12;Baghdad Bounedjah
+AUT-01;AUT;1;Austria Logo
+AUT-02;AUT;2;Alexander Schlager
+AUT-03;AUT;3;David Alaba
+AUT-04;AUT;4;Kevin Danso
+AUT-05;AUT;5;Philipp Lienhart
+AUT-06;AUT;6;Konrad Laimer
+AUT-07;AUT;7;Nicolas Seiwald
+AUT-08;AUT;8;Marcel Sabitzer
+AUT-09;AUT;9;Florian Grillitsch
+AUT-10;AUT;10;Marko Arnautović
+AUT-11;AUT;11;Christoph Baumgartner
+AUT-12;AUT;12;Michael Gregoritsch
+JOR-01;JOR;1;Jordan Logo
+JOR-02;JOR;2;Yazeed Abulaila
+JOR-03;JOR;3;Mohammad Abu Hashish
+JOR-04;JOR;4;Yazan Al-Arab
+JOR-05;JOR;5;Abdallah Nasib
+JOR-06;JOR;6;Ibrahim Saadeh
+JOR-07;JOR;7;Nizar Al-Rashdan
+JOR-08;JOR;8;Noor Al-Rawabdeh
+JOR-09;JOR;9;Yazan Al-Naimat
+JOR-10;JOR;10;Moussa Al-Taamari
+JOR-11;JOR;11;Mahmoud Al-Mardi
+JOR-12;JOR;12;Ali Olwan
+POR-01;POR;1;Portugal Logo
+POR-02;POR;2;Diogo Costa
+POR-03;POR;3;Rúben Dias
+POR-04;POR;4;Nuno Mendes
+POR-05;POR;5;Vitinha
+POR-06;POR;6;Bernardo Silva
+POR-07;POR;7;Bruno Fernandes
+POR-08;POR;8;Rúben Neves
+POR-09;POR;9;Cristiano Ronaldo
+POR-10;POR;10;João Félix
+POR-11;POR;11;Pedro Neto
+POR-12;POR;12;Rafael Leão
+COD-01;COD;1;Congo DR logo
+COD-02;COD;2;Lionel Mpasi
+COD-03;COD;3;Aaron Wan-Bissaka
+COD-04;COD;4;Axel Tuanzebe
+COD-05;COD;5;Arthur Masuaku
+COD-06;COD;6;Chancel Mbemba
+COD-07;COD;7;Ngal'ayel Mukau
+COD-08;COD;8;Samuel Moutoussamy
+COD-09;COD;9;Noah Sadiki
+COD-10;COD;10;Théo Bongonda
+COD-11;COD;11;Yoane Wissa
+COD-12;COD;12;Cédric Bakambu
+UZB-01;UZB;1;Uzbekistan Logo
+UZB-02;UZB;2;Utkir Yusupov
+UZB-03;UZB;3;Abdukodir Khusanov
+UZB-04;UZB;4;Farrukh Sayfiev
+UZB-05;UZB;5;Sherzod Nasrullaev
+UZB-06;UZB;6;Husniddin Aliqulov
+UZB-07;UZB;7;Rustam Ashurmatov
+UZB-08;UZB;8;Khojiakbar Alijonov
+UZB-09;UZB;9;Odiljon Hamrobekov
+UZB-10;UZB;10;Otabek Shukurov
+UZB-11;UZB;11;Eldor Shomurodov
+UZB-12;UZB;12;Abbosbek Fayzullaev
+COL-01;COL;1;Colombia Logo
+COL-02;COL;2;Camilo Vargas
+COL-03;COL;3;Dávinson Sánchez
+COL-04;COL;4;Yerry Mina
+COL-05;COL;5;Daniel Muñoz
+COL-06;COL;6;James Rodríguez
+COL-07;COL;7;Jefferson Lerma
+COL-08;COL;8;Richard Ríos
+COL-09;COL;9;Juan Fernando Quintero
+COL-10;COL;10;Luis Díaz
+COL-11;COL;11;Jhon Arias
+COL-12;COL;12;Luis Suárez
+ENG-01;ENG;1;England Logo
+ENG-02;ENG;2;Jordan Pickford
+ENG-03;ENG;3;Reece James
+ENG-04;ENG;4;John Stones
+ENG-05;ENG;5;Jude Bellingham
+ENG-06;ENG;6;Declan Rice
+ENG-07;ENG;7;Jordan Henderson
+ENG-08;ENG;8;Phil Foden
+ENG-09;ENG;9;Harry Kane
+ENG-10;ENG;10;Bukayo Saka
+ENG-11;ENG;11;Cole Palmer
+ENG-12;ENG;12;Marcus Rashford
+CRO-01;CRO;1;Croatia Logo
+CRO-02;CRO;2;Dominik Livaković
+CRO-03;CRO;3;Duje Ćaleta-Car
+CRO-04;CRO;4;Joško Gvardiol
+CRO-05;CRO;5;Josip Stanišić
+CRO-06;CRO;6;Ivan Perišić
+CRO-07;CRO;7;Luka Modrić
+CRO-08;CRO;8;Mateo Kovačić
+CRO-09;CRO;9;Lovro Majer
+CRO-10;CRO;10;Mario Pašalić
+CRO-11;CRO;11;Ante Budimir
+CRO-12;CRO;12;Andrej Kramarić
+GHA-01;GHA;1;Ghana Logo
+GHA-02;GHA;2;Lawrence Ati Zigi
+GHA-03;GHA;3;Alidu Seidu
+GHA-04;GHA;4;Alexander Djiku
+GHA-05;GHA;5;Gideon Mensah
+GHA-06;GHA;6;Caleb Yirenkyi
+GHA-07;GHA;7;Thomas Partey
+GHA-08;GHA;8;Abdul Issahaku Fatawu
+GHA-09;GHA;9;Mohammed Kudus
+GHA-10;GHA;10;Kamaldeen Sulemana
+GHA-11;GHA;11;Jordan Ayew
+GHA-12;GHA;12;Antoine Semenyo
+PAN-01;PAN;1;Panama Logo
+PAN-02;PAN;2;Orlando Mosquera
+PAN-03;PAN;3;Michael Amir Murillo
+PAN-04;PAN;4;Andrés Andrade
+PAN-05;PAN;5;Fidel Escobar
+PAN-06;PAN;6;Aníbal Godoy
+PAN-07;PAN;7;Cristian Martínez
+PAN-08;PAN;8;Adalberto Carrasquilla
+PAN-09;PAN;9;Édgar Bárcenas
+PAN-10;PAN;10;José Fajardo
+PAN-11;PAN;11;Ismael Díaz
+PAN-12;PAN;12;José Luis Rodríguez
+ATF-01;ATF;1;Lamine Yamal
+ATF-02;ATF;2;Joshua Kimmich
+ATF-03;ATF;3;Harry Kane
+ATF-04;ATF;4;Santiago Gimenez
+ATF-05;ATF;5;Joško Gvardiol
+ATF-06;ATF;6;Federico Valverde
+ATF-07;ATF;7;Jefferson Lerma
+ATF-08;ATF;8;Enner Valencia
+ATF-09;ATF;9;Gabriel Magalhães
+ATF-10;ATF;10;Virgil Van Dijk
+ATF-11;ATF;11;Alphonso Davies
+ATF-12;ATF;12;Emiliano Martínez
+ATF-13;ATF;13;Raúl Jiménez
+ATF-14;ATF;14;Lautaro Martínez
+FAN-01;FAN;1;México
+FAN-02;FAN;2;África do Sul
+FAN-03;FAN;3;Coreia do Sul
+FAN-04;FAN;4;Chéquia
+FAN-05;FAN;5;Canadá
+FAN-06;FAN;6;Bósnia e Herzegovina
+FAN-07;FAN;7;Catar
+FAN-08;FAN;8;Suíça
+FAN-09;FAN;9;Brasil
+FAN-10;FAN;10;Marrocos
+FAN-11;FAN;11;Haiti
+FAN-12;FAN;12;Escócia
+FAN-13;FAN;13;Estados Unidos
+FAN-14;FAN;14;Paraguai
+FAN-15;FAN;15;Austrália
+FAN-16;FAN;16;Turquia
+FAN-17;FAN;17;Alemanha
+FAN-18;FAN;18;Curaçao
+FAN-19;FAN;19;Costa do Marfim
+FAN-20;FAN;20;Equador
+FAN-21;FAN;21;Países Baixos
+FAN-22;FAN;22;Japão
+FAN-23;FAN;23;Suécia
+FAN-24;FAN;24;Tunísia
+FAN-25;FAN;25;Bélgica
+FAN-26;FAN;26;Egito
+FAN-27;FAN;27;Irã
+FAN-28;FAN;28;Nova Zelândia
+FAN-29;FAN;29;Espanha
+FAN-30;FAN;30;Cabo Verde
+FAN-31;FAN;31;Arábia Saudita
+FAN-32;FAN;32;Uruguai
+FAN-33;FAN;33;França
+FAN-34;FAN;34;Senegal
+FAN-35;FAN;35;Iraque
+FAN-36;FAN;36;Noruega
+FAN-37;FAN;37;Argentina
+FAN-38;FAN;38;Argélia
+FAN-39;FAN;39;Áustria
+FAN-40;FAN;40;Jordânia
+FAN-41;FAN;41;Portugal
+FAN-42;FAN;42;Congo DR
+FAN-43;FAN;43;Uzbequistão
+FAN-44;FAN;44;Colômbia
+FAN-45;FAN;45;Inglaterra
+FAN-46;FAN;46;Croácia
+FAN-47;FAN;47;Gana
+FAN-48;FAN;48;Panamá
