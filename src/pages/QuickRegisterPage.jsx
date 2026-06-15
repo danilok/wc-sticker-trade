@@ -8,7 +8,7 @@ import { Spinner } from '../components/Spinner.jsx';
 // ──────────────────────────────────────────────────────────────────────
 // Row de uma figurinha
 // ──────────────────────────────────────────────────────────────────────
-function StickerRow({ sticker, entry, onSave }) {
+function StickerRow({ sticker, entry, tradeable = true, onSave }) {
   const status = entry?.status ?? 'none';
   const storeQty = entry?.qty ?? 1;
 
@@ -79,29 +79,33 @@ function StickerRow({ sticker, entry, onSave }) {
       </td>
       {/* Repetida */}
       <td className="py-2 pr-2 align-middle text-center">
-        <input
-          type="checkbox"
-          checked={isDup}
-          onChange={(e) => handleDupChange(e.target.checked)}
-          className="h-[18px] w-[18px] cursor-pointer rounded accent-amber-400"
-        />
+        {tradeable && (
+          <input
+            type="checkbox"
+            checked={isDup}
+            onChange={(e) => handleDupChange(e.target.checked)}
+            className="h-[18px] w-[18px] cursor-pointer rounded accent-amber-400"
+          />
+        )}
       </td>
       {/* Qtd */}
       <td className="py-2 align-middle">
-        <input
-          type="number"
-          inputMode="numeric"
-          min={1}
-          value={isDup ? localQty : ''}
-          disabled={!isDup}
-          onChange={(e) => handleQtyChange(e.target.value)}
-          placeholder="—"
-          className={`w-14 rounded-lg border px-2 py-1 text-center text-sm font-semibold
-            bg-white/[0.07] placeholder-white/20
-            disabled:cursor-not-allowed disabled:opacity-25
-            ${qtyInvalid ? 'border-red-400/70 text-red-300' : 'border-white/15 text-white'}
-          `}
-        />
+        {tradeable && (
+          <input
+            type="number"
+            inputMode="numeric"
+            min={1}
+            value={isDup ? localQty : ''}
+            disabled={!isDup}
+            onChange={(e) => handleQtyChange(e.target.value)}
+            placeholder="—"
+            className={`w-14 rounded-lg border px-2 py-1 text-center text-sm font-semibold
+              bg-white/[0.07] placeholder-white/20
+              disabled:cursor-not-allowed disabled:opacity-25
+              ${qtyInvalid ? 'border-red-400/70 text-red-300' : 'border-white/15 text-white'}
+            `}
+          />
+        )}
       </td>
     </tr>
   );
@@ -110,7 +114,7 @@ function StickerRow({ sticker, entry, onSave }) {
 // ──────────────────────────────────────────────────────────────────────
 // Seção (accordion)
 // ──────────────────────────────────────────────────────────────────────
-function SectionAccordion({ section, map, setStatus, open, onToggle, filteredStickers }) {
+function SectionAccordion({ section, map, setStatus, open, onToggle, filteredStickers, tradeable }) {
   const stickersToShow = filteredStickers ?? section.stickers;
 
   const have = section.stickers.filter(
@@ -198,10 +202,10 @@ function SectionAccordion({ section, map, setStatus, open, onToggle, filteredSti
                   Tenho
                 </th>
                 <th className="pb-1.5 text-center text-[10px] font-semibold uppercase tracking-wide text-white/35">
-                  Rep.
+                  {tradeable ? 'Rep.' : ''}
                 </th>
                 <th className="pb-1.5 text-center text-[10px] font-semibold uppercase tracking-wide text-white/35">
-                  Qtd
+                  {tradeable ? 'Qtd' : ''}
                 </th>
               </tr>
             </thead>
@@ -211,6 +215,7 @@ function SectionAccordion({ section, map, setStatus, open, onToggle, filteredSti
                   key={sticker.code}
                   sticker={sticker}
                   entry={map[sticker.code]}
+                  tradeable={tradeable}
                   onSave={handleSetStatus}
                 />
               ))}
@@ -388,6 +393,7 @@ export function QuickRegisterPage() {
                   open={openSections.has(section.code)}
                   onToggle={() => toggleSection(section.code)}
                   filteredStickers={stickers}
+                  tradeable={section.tradeable}
                 />
               ))
             )}
