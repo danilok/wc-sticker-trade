@@ -1,5 +1,5 @@
-import { useOutletContext } from 'react-router-dom';
-import { Layers, LogOut, Lock } from 'lucide-react';
+import { useNavigate, useOutletContext } from 'react-router-dom';
+import { ClipboardList, Layers, LogOut, Lock } from 'lucide-react';
 import { useCatalog } from '../context/CatalogProvider.jsx';
 import { useAuth } from '../context/AuthProvider.jsx';
 
@@ -7,6 +7,7 @@ import { useAuth } from '../context/AuthProvider.jsx';
 export function ProfilePage() {
   const { profile, signOut } = useAuth();
   const { getStatus } = useOutletContext();
+  const navigate = useNavigate();
   const { catalog } = useCatalog();
 
   let got = 0;
@@ -64,7 +65,14 @@ export function ProfilePage() {
         )}
 
         <button
-          className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl border border-red-400/40 px-4 py-3 font-semibold text-red-300 transition hover:bg-red-400/10"
+          className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl border border-brand-accent/40 bg-brand-accent/10 px-4 py-3 font-semibold text-brand-accent transition hover:bg-brand-accent/20"
+          onClick={() => navigate('/cadastro')}
+        >
+          <ClipboardList size={20} /> Cadastro Rápido
+        </button>
+
+        <button
+          className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl border border-red-400/40 px-4 py-3 font-semibold text-red-300 transition hover:bg-red-400/10"
           onClick={signOut}
         >
           <LogOut size={20} /> Sair da conta
