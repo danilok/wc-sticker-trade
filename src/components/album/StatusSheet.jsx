@@ -9,16 +9,16 @@ const OPTIONS = ['none', 'got', 'duplicate', 'trading'];
 // Bottom-sheet de alteração de status (Tela 3). Faz a chamada ao banco via onApply.
 export function StatusSheet({ code, label, flag, sectionName, current, onApply, onClose }) {
   const [status, setStatus] = useState(current.status === 'none' ? 'got' : current.status);
-  const [qty, setQty] = useState(current.status === 'duplicate' ? Math.max(2, current.qty) : 2);
+  const [qty, setQty] = useState(current.status === 'duplicate' ? Math.max(1, current.qty) : 1);
   const [busy, setBusy] = useState(null); // null | 'save' | 'trade'
 
   const pick = (s) => {
     setStatus(s);
-    if (s === 'duplicate' && qty < 2) setQty(2);
+    if (s === 'duplicate' && qty < 1) setQty(1);
   };
 
   const apply = async () => {
-    const q = status === 'duplicate' ? Math.max(2, qty) : 1;
+    const q = status === 'duplicate' ? Math.max(1, qty) : 1;
     setBusy('save');
     try {
       await onApply(status, q);
@@ -98,8 +98,8 @@ export function StatusSheet({ code, label, flag, sectionName, current, onApply, 
             <div className="flex items-center gap-3">
               <button
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 disabled:opacity-40"
-                onClick={() => setQty((q) => Math.max(2, q - 1))}
-                disabled={qty <= 2}
+                onClick={() => setQty((q) => Math.max(1, q - 1))}
+                disabled={qty <= 1}
               >
                 <Minus size={18} />
               </button>
