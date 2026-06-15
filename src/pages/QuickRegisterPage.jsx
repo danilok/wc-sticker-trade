@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useOutletContext } from 'react-router-dom';
 import { ArrowLeft, ChevronDown, Search, X } from 'lucide-react';
 import { useCatalog } from '../context/CatalogProvider.jsx';
@@ -112,9 +112,50 @@ function StickerRow({ sticker, entry, onSave }) {
 // ──────────────────────────────────────────────────────────────────────
 function SectionAccordion({ section, map, setStatus, open, onToggle, filteredStickers }) {
   const stickersToShow = filteredStickers ?? section.stickers;
+
   const have = section.stickers.filter(
     (s) => map[s.code] && map[s.code].status !== 'none',
   ).length;
+  const allHave = have === section.stickers.length;
+  const someHave = have > 0 && !allHave;
+
+  const selectAllRef = useRef(null);
+  // Guarda os códigos que o select-all alterou. Edições manuais posteriores
+  // removem o código daqui, para que o "desmarcar" não os reverta.
+  const snapshotRef = useRef(null);
+
+  useEffect(() => {
+    if (selectAllRef.current) {
+      selectAllRef.current.indeterminate = someHave;
+    }
+  }, [someHave]);
+
+  // Wrapper que remove o código do snapshot quando o usuário edita manualmente.
+  const handleSetStatus = useCallback(
+    (code, status, qty) => {
+      snapshotRef.current?.delete(code);
+      setStatus(code, status, qty);
+    },
+    [setStatus],
+  );
+
+  const handleSelectAll = useCallback(
+    (checked) => {
+      if (checked) {
+        const nowNone = new Set(
+          section.stickers
+            .filter((s) => !map[s.code] || map[s.code].status === 'none')
+            .map((s) => s.code),
+        );
+        snapshotRef.current = nowNone;
+        nowNone.forEach((code) => setStatus(code, 'got', 1));
+      } else {
+        snapshotRef.current?.forEach((code) => setStatus(code, 'none', 0));
+        snapshotRef.current = null;
+      }
+    },
+    [section.stickers, map, setStatus],
+  );
 
   return (
     <div className="border-b border-white/10">
@@ -170,10 +211,28 @@ function SectionAccordion({ section, map, setStatus, open, onToggle, filteredSti
                   key={sticker.code}
                   sticker={sticker}
                   entry={map[sticker.code]}
-                  onSave={setStatus}
+                  onSave={handleSetStatus}
                 />
               ))}
             </tbody>
+            <tfoot>
+              <tr className="border-t border-white/10">
+                <td colSpan={2} className="py-2 pr-2 align-middle text-right">
+                  <span className="text-xs font-semibold text-white/50">Grupo completo?</span>
+                </td>
+                <td className="py-2 pr-2 align-middle text-center">
+                  <input
+                    ref={selectAllRef}
+                    type="checkbox"
+                    checked={allHave}
+                    onChange={(e) => handleSelectAll(e.target.checked)}
+                    title={allHave ? 'Desmarcar todos' : 'Marcar todos como Tenho'}
+                    className="h-[18px] w-[18px] cursor-pointer rounded accent-green-400"
+                  />
+                </td>
+                <td colSpan={2} />
+              </tr>
+            </tfoot>
           </table>
         </div>
       )}
