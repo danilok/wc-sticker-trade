@@ -4,11 +4,16 @@ import { STATUS_META, STATUS_STYLE } from '../../lib/statusStyles.js';
 import { Flag } from '../Flag.jsx';
 import { Spinner } from '../Spinner.jsx';
 
-const OPTIONS = ['none', 'got', 'duplicate', 'trading'];
+const ALL_OPTIONS = ['none', 'got', 'duplicate', 'trading'];
+const TRADEABLE_ONLY_OPTIONS = ['none', 'got'];
 
 // Bottom-sheet de alteração de status (Tela 3). Faz a chamada ao banco via onApply.
-export function StatusSheet({ code, label, flag, sectionName, current, onApply, onClose }) {
-  const [status, setStatus] = useState(current.status === 'none' ? 'got' : current.status);
+export function StatusSheet({ code, label, flag, sectionName, current, tradeable = true, onApply, onClose }) {
+  const OPTIONS = tradeable ? ALL_OPTIONS : TRADEABLE_ONLY_OPTIONS;
+  const rawStatus = current.status === 'none' ? 'got' : current.status;
+  // Para seções não-trocáveis, nunca iniciar em duplicate/trading
+  const initialStatus = !tradeable && (rawStatus === 'duplicate' || rawStatus === 'trading') ? 'got' : rawStatus;
+  const [status, setStatus] = useState(initialStatus);
   const [qty, setQty] = useState(current.status === 'duplicate' ? Math.max(1, current.qty) : 1);
   const [busy, setBusy] = useState(null); // null | 'save' | 'trade'
 
@@ -58,7 +63,7 @@ export function StatusSheet({ code, label, flag, sectionName, current, onApply, 
           </div>
         </div>
 
-        {current.status === 'trading' && (
+        {tradeable && current.status === 'trading' && (
           <button
             className="mb-4 flex w-full items-center justify-center gap-2 rounded-xl bg-st-got px-4 py-3 font-semibold text-white transition hover:brightness-105 disabled:opacity-60"
             onClick={confirmTrade}

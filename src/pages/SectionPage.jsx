@@ -122,6 +122,7 @@ export function SectionPage() {
           flag={sheet.flag}
           sectionName={section.name}
           current={getStatus(sheet.code)}
+          tradeable={section.tradeable}
           onApply={apply}
           onClose={() => setSheetN(null)}
         />
