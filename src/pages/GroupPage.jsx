@@ -27,6 +27,7 @@ export function GroupPage() {
   const [phase, setPhase] = useState('idle'); // idle | loading | done | empty | error
   const [results, setResults] = useState([]);
   const [filter, setFilter] = useState('ALL');
+  const [hideOwned, setHideOwned] = useState(true);
   const [revealPass, setRevealPass] = useState(false);
 
   const search = async () => {
@@ -50,8 +51,9 @@ export function GroupPage() {
     return [...map.values()];
   }, [results]);
 
-  const shown =
-    filter === 'ALL' ? results : results.filter((r) => r.sticker_code.startsWith(filter + '-'));
+  const shown = results
+    .filter((r) => filter === 'ALL' || r.sticker_code.startsWith(filter + '-'))
+    .filter((r) => !hideOwned || getStatus(r.sticker_code).status === 'none');
 
   const copy = (text, label) => {
     navigator.clipboard?.writeText(text).catch(() => {});
@@ -178,6 +180,19 @@ export function GroupPage() {
                 </Chip>
               ))}
             </div>
+            <button
+              onClick={() => setHideOwned((v) => !v)}
+              className="mt-2 flex w-full items-center justify-between rounded-xl bg-white/[0.06] px-3 py-2.5"
+            >
+              <span className="text-sm text-white/70">Ocultar figurinhas que já tenho</span>
+              <span
+                className={`flex h-6 w-11 shrink-0 items-center rounded-full transition-colors ${hideOwned ? 'bg-brand-accent' : 'bg-white/20'}`}
+              >
+                <span
+                  className={`block h-5 w-5 rounded-full bg-white shadow transition-transform ${hideOwned ? 'translate-x-[22px]' : 'translate-x-0.5'}`}
+                />
+              </span>
+            </button>
             <div className="mb-3 mt-1 text-xs text-white/50">
               Ordenado por código · @ de quem tem a repetida
             </div>
